@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6cMTZMji6EFtEaXhML0iua0UvK535Kn9Zy5qhsOnfRI=",
+  "Source": "RedditListener",
+  "BasePath": "_content/RedditListener",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
