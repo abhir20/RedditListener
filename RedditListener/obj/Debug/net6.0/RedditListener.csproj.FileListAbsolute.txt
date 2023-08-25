@@ -25,3 +25,7 @@ C:\Users\abhin\CODING\RedditListener\RedditListener\obj\Debug\net6.0\RedditListe
 C:\Users\abhin\CODING\RedditListener\RedditListener\obj\Debug\net6.0\ref\RedditListener.dll
 C:\Users\abhin\CODING\RedditListener\RedditListener\obj\Debug\net6.0\RedditListener.pdb
 C:\Users\abhin\CODING\RedditListener\RedditListener\obj\Debug\net6.0\RedditListener.genruntimeconfig.cache
+C:\Users\abhin\CODING\RedditListener\RedditListener\bin\Debug\net6.0\RestSharp.dll
+C:\Users\abhin\CODING\RedditListener\RedditListener\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\abhin\CODING\RedditListener\RedditListener\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\abhin\CODING\RedditListener\RedditListener\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
