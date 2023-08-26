@@ -16,7 +16,32 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+static void Main(string[] args)
+{
+    if (args.Length < 2)
+    {
+        Console.WriteLine("Usage: Example <Reddit App ID> <Reddit Refresh Token> [Reddit Access Token]");
+    }
+    else
+    {
+        string appId = args[0];
+        string refreshToken = args[1];
+        string accessToken = (args.Length > 2 ? args[2] : null);
+
+        // Initialize the API library instance.  --Kris
+        RedditClient reddit = new RedditClient(appId: appId, refreshToken: refreshToken, accessToken: accessToken);
+
+        // Get info on the Reddit user authenticated by the OAuth credentials.  --Kris
+        User me = reddit.Account.Me;
+
+        Console.WriteLine("Username: " + me.Name);
+        Console.WriteLine("Cake Day: " + me.Created.ToString("D"));
+    }
+}
+
+        app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

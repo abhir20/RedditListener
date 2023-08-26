@@ -1,6 +1,6 @@
 ﻿namespace RedditListener.Model
 {
-    public class Posts
+    public class LiveThreads
     {
 
         public string Id { get; set; }

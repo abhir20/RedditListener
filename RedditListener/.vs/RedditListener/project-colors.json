@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46766f59-f9b5-471d-b212-575fdf3f6ef8": {
+      "ProjectGuid": "46766f59-f9b5-471d-b212-575fdf3f6ef8",
+      "DisplayName": "RedditListener",
+      "ColorIndex": 0
+    },
+    "2b086228-81f3-44b0-91d0-e1038eb5879e": {
+      "ProjectGuid": "2b086228-81f3-44b0-91d0-e1038eb5879e",
+      "DisplayName": "Tests",
+      "ColorIndex": 1
+    },
+    "129a415e-3a3a-4294-b59a-55c22ed1fd96": {
+      "ProjectGuid": "129a415e-3a3a-4294-b59a-55c22ed1fd96",
+      "DisplayName": "AuthenticationTokenRetriever",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

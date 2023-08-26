@@ -2,6 +2,9 @@
 using RestSharp;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
+//Api controller class 
+//Gets live threads and discussions based on upvotes/users
+
 namespace RedditListener.Controllers
 {
     [Route("api/[controller]")]
@@ -10,7 +13,7 @@ namespace RedditListener.Controllers
     {
         // GET: api/<PostsControlle>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<string> GetLiveThreads()
         {
             return new string[] { "value1", "value2" };
         }
